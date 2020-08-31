@@ -1,5 +1,4 @@
 #!/bin/env python3
-
 from random import randint
 
 def zombie_attack(array):   # function to count the number of new zombies
