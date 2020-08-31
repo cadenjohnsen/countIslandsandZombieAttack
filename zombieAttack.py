@@ -77,3 +77,16 @@ print ("\nInfected City Square ( Day", days, "):")  # print before city square w
 print('\n'.join([''.join(['{:4}'.format(item) for item in row]) # print statement to print out rows and cols
       for row in array]))   # display array as 2D object rather than all on one row
 print()
+
+# # function to call and execute other functions
+# def main():
+#     taskNum, activities = createRandomArray()
+#
+#     print ("Number of Activities =", taskNum)     # prints the number of tasks
+#     print ("Activities Array:", activities) # prints the entire activities array
+#
+#     activity_selection(taskNum, activities) # executes the activity selection algorithm and prints out the answers
+#
+# # beginning of the program to call main and start execution
+# if __name__ == "__main__":
+# 	main()

@@ -51,3 +51,16 @@ print('\n'.join([''.join(['{:4}'.format(item) for item in row]) # print statemen
 islands = count_islands(array)  # call the count islands function and return the number of islands
 
 print ("\nNumber of Islands:", islands, "\n") # print the results
+
+# # function to call and execute other functions
+# def main():
+#     taskNum, activities = createRandomArray()
+#
+#     print ("Number of Activities =", taskNum)     # prints the number of tasks
+#     print ("Activities Array:", activities) # prints the entire activities array
+#
+#     activity_selection(taskNum, activities) # executes the activity selection algorithm and prints out the answers
+#
+# # beginning of the program to call main and start execution
+# if __name__ == "__main__":
+# 	main()
